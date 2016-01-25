@@ -26,7 +26,7 @@ $naughty = array('\b(?:fat|gay|gay |jack|jack |dat|dat |jerk|lame|lame |suck|suc
 				'\btit(?:ties|s|fuck|fucks|tyfuck|ty fuck)?\b',
 				'\btwat(?:s|lips|waffle|waffles|lip)?\b',
 				'\b(?:thunder)?cunt(?:s)?\b',
-				'\b(?:dumb:homo:homodumb:dip)?shit(?:e|ted|ting|ty|head|ass|asses|bag|bags|bagger|baggers|tiest|dick|dicks|face|faced|faces|cunt|cunts|hole|holes|house|houses|spitter|spitters|stain|stains|ter|ters)?\b');
+				'\b(?:dumb|homo|homodumb|dip|bull|horse)?shit(?:e|ted|ting|ty|head|ass|asses|bag|bags|bagger|baggers|tiest|dick|dicks|face|faced|faces|cunt|cunts|hole|holes|house|houses|spitter|spitters|stain|stains|ter|ters)?\b');
 
 $response = array('status' => '0', 'error' => 'No message specified');
 $replacement = "*";
