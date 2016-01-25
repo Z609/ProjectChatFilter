@@ -35,6 +35,7 @@ if(isset($_GET['replacement'])){
 }
 if(isset($_GET['message'])){
 	$message = $_GET['message'];
+	$message = preg_replace("/(?<=(?<!\pL)\pL) (?=\pL(?!\pL))/", "", $message);
 	$profanityLevel = 0;
     foreach($naughty as $word){
         $match_count = preg_match_all('/' . $word . '/i', $message, $matches);
