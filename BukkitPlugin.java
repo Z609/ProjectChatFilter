@@ -84,7 +84,7 @@ public class BukkitPlugin extends JavaPlugin implements Listener {
                 if(status==1){
 					
 					// Set the message that the player sent to the filtered version
-                    message = json.getJSONObject(i).getString("reponse");
+                    message = json.getJSONObject(i).getString("response");
 					
 					// Set the profanity level of that message 
                     profanityLevel = json.getJSONObject(i).getInt("profanityLevel");

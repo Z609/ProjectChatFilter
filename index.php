@@ -28,7 +28,7 @@ $naughty = array('\b(?:fat|gay|gay |jack|jack |dat|dat |jerk|lame|lame |suck|suc
 				'\b(?:thunder)?c+u+n+t+(?:s)?\b',
 				'\b(?:dumb|homo|homodumb|dip|bull|horse)?s+h+i+t+(?:e|ted|ting|ty|head|ass|asses|bag|bags|bagger|baggers|tiest|dick|dicks|face|faced|faces|cunt|cunts|hole|holes|house|houses|spitter|spitters|stain|stains|ter|ters)?\b');
 
-$response = array('status' => '0', 'error' => 'No message specified');
+$response = array('status' => 0, 'error' => 'No message specified');
 $replacement = "*";
 if(isset($_GET['replacement'])){
 	$replacement = $_GET['replacement'];
@@ -45,7 +45,7 @@ if(isset($_GET['message'])){
 		}
 		$profanityLevel+=$match_count;
     }
-	$response = array('status' => '1', 'response' => $message, 'profanityLevel' => $profanityLevel);
+	$response = array('status' => 1, 'response' => $message, 'profanityLevel' => $profanityLevel);
 }
 
 $response = json_encode($response);
