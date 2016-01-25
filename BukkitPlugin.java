@@ -16,6 +16,7 @@ import java.net.URL;
 
 /**
  * @author Z609
+ * Required dependency: https://github.com/douglascrockford/JSON-java (place in org.json)
  */
 public class BukkitPlugin extends JavaPlugin implements Listener {
     
