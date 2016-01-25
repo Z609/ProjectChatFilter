@@ -3,11 +3,11 @@ I made this in about 30 minutes when I needed a chat filter for my Minecraft net
 
 Example
 ---
-http://api.z609.me/censor/?message=You%20are%20such%20a%20cunt!
+http://api.z609.me/censor/?message=You%20are%20such%20a%20cunt
 
 Returns:
 
-{"status":"1","response":"You are such a ****!","profanityLevel":1}
+{"status":"1","response":"You are such a ****","profanityLevel":1}
 
 Example:
 status: can be 0 or 1. If 0, there is an error. If 1, the filter was successful.
