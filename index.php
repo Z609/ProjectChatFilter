@@ -9,7 +9,7 @@ $naughty = array('\b(?:fat|gay|gay |jack|jack |dat|dat |jerk|lame|lame |suck|suc
 				'\bbj(?:s|\'s)?\b',
 				'\bbollox(?:s|es)?\b',
 				'\bboner(?:s)?\b',
-				'\b(?:gay|gays|gay |brother|sister|uncle|brotha|sista|mother|motha|bumble)?fuck(?:a|er|as|ers|s|shits|shit|tard|tards|brain|brains|butt|butts|butter|butters|ed|face|faces|ing|nut|nuts|nutt|nutts|off|up|ups|offs|tart|tarts|wad|wads|wit|wits|witt|witts|ist|ists|in)?\b',
+				'\b(?:gay|gays|gay |brother|sister|uncle|brotha|sista|mother|motha|bumble)?fuck(?:a|er|as|ers|s|shits|shit|tard|tards|brain|brains|butt|butts|butter|butters|ed|face|faces|ing|nut|nuts|nutt|nutts|off|up|ups|offs|tart|tarts|wad|wads|wit|wits|witt|witts|ist|ists|in|head|heads)?\b',
 				'\bdayum?\b',
 				'\b(?:god)dam(?:n|mit|nit|n it)?\b',
 				'\bhomo(?:s|es)?\b',
