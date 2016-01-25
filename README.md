@@ -3,7 +3,7 @@ I made this in about 30 minutes when I needed a chat filter for my Minecraft net
 
 Example
 ---
-http://api.z609.me/censor/?message=You are such a cunt!
+http://api.z609.me/censor/?message=You%20are%20such%20a%20cunt!
 
 Returns:
 
