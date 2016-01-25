@@ -1,6 +1,8 @@
 # ProjectChatFilter
 I made this in about 30 minutes when I needed a chat filter for my Minecraft network (https://www.optimusmc.info/). So, I'm posting the code here for you to all enjoy! Should you find that something doesn't work, try making a pull request!
 
+You are NOT required to host this on your server. You can use http://api.z609.me/censor/ (HTTPS is supported). In fact, it is recommended that you use the API as a) 100% uptime, b) updates, and c) it's cool! :)
+
 Example
 ---
 http://api.z609.me/censor/?message=You%20are%20such%20a%20cunt
@@ -8,6 +10,12 @@ http://api.z609.me/censor/?message=You%20are%20such%20a%20cunt
 Returns:
 
 {"status":"1","response":"You are such a ****","profanityLevel":1}
+
+Arguments
+---
+message: The message you want to filter
+
+replacement: One character that will be used to bleep out parts of bad words. Recommended one letter. Default is an asterisk (*)
 
 Response
 ---
