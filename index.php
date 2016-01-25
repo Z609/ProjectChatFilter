@@ -29,12 +29,6 @@ $naughty = array('\b(?:fat|gay|gay |jack|jack |dat|dat |jerk|lame|lame |suck|suc
 				'\b(?:dumb:homo:homodumb:dip)?shit(?:e|ted|ting|ty|head|ass|asses|bag|bags|bagger|baggers|tiest|dick|dicks|face|faced|faces|cunt|cunts|hole|holes|house|houses|spitter|spitters|stain|stains|ter|ters)?\b');
 
 $response = array('status' => '0', 'error' => 'No message specified');
-$regex = "";
-foreach($words as $value){
-	$regex .= '|'.$value;
-}
-$regex = substr($regex, 1);
-$regex = "/(".$regex.")/";
 $replacement = "*";
 if(isset($_GET['replacement'])){
 	$replacement = $_GET['replacement'];
