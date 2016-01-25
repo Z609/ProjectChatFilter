@@ -27,6 +27,10 @@ profanityLevel: For every word that needs to be bleeped, this number increments 
 
 error: this is only given when the status is 0. It gives a brief explanation of the error.
 
+Bukkit Plugin
+---
+https://www.spigotmc.org/resources/projectchatfilter.17535/
+
 Caveats
 ---
-Does not work with spaces (like c u n t). Case sensitivity does not matter. There can be other contexts and variations of words that have not been added.
+Sometimes it simply doesn't work depending on the person chatting uses it.
