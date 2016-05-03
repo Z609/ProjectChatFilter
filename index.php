@@ -22,6 +22,7 @@ $naughty = array('\b(?:fat|gay|gay |jack|jack |dat|dat |jerk|lame|lame |suck|suc
 				'\b(?:sand|sand )?n+i+g+g+a+(?:s)?\b',
 				'\b(?:sand|sand )?n+i+g+g+e+r+(?:s)?\b',
 				'\bp+u+s+s+y+(?:s|ies|licking)?\b',
+				'\bw+h+o+r+e+(?:s)?\b',
 				'\bp+u+s+s+i+e+s+?\b',
 				'\bt+i+t+(?:ties|s|fuck|fucks|tyfuck|ty fuck)?\b',
 				'\bt+w+a+t+(?:s|lips|waffle|waffles|lip)?\b',
